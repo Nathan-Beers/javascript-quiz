@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Who wants to be a Javascript Dev?</title>
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+    crossorigin="anonymous"
+  />
+    <link rel="stylesheet" href="./main.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+</head>
+<body>
+
+    <header id="header-container">
+        <div id="header-content">
+            <img id="logo" src="./resources/joystick-logo.png">
+            <h1 id="heading">Who wants to be a Javascript Dev?</h1>
+        </div>
+    </header>
+
+    <main>
+        <div id="main-container">
+            <div id="image-container">
+                <img id="img-el" src="./resources/js-square-brands.png">
+            </div>
+            <h2 id="question-el">Which of these isn't a Javascript data type?</h2>
+                <div class="answers-row">
+                    <button class="answer" id="a1" >String</button>
+                    <button class="answer" id="a2" >Boolean</button>
+                </div>
+                <div class="answers-row">
+                    <button class="answer" id="a3" value="true">Float</button>
+                    <button class="answer" id="a4" >Object</button>
+                </div>
+                <div id="next-question-container">
+                    <h5 id="next-question">Next Question</h3>
+                </div>
+        </div>
+        
+    </main>
+
+    <nav id="nav-bar">
+        <img id="restart-el"  src="resources/restart.png">
+        <h1 id="points-el" class="nav-content">Points: 0/6</h1>
+    </nav>
+    
+    <div id="lives-container">
+        <img id="life1-el" class="lives" src="./resources/lives.png">
+        <img id="life2-el" class="lives" src="./resources/lives.png">
+        <img id="life3-el" class="lives" src="./resources/lives.png">
+    </div>
+   
+    <script src="./script.js"></script>
+</body>
+</html>

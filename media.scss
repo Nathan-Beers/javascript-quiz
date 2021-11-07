@@ -1,0 +1,51 @@
+@media screen and (max-width: 1005px) {
+     .answers-row {
+        margin: 2px 0!important;
+    }
+
+    .answer {
+        margin: 0 10px;   
+        height: 20px;
+    }
+    
+}
+
+@media screen and (max-width: 944px) {
+    h1 {
+        font-size: 20px;
+    }
+
+    #heading {
+        font-size: 28px;
+    }
+
+    main #main-container  {
+        width: 90%;
+    }
+
+   
+
+}
+
+@media screen and (max-width: 533px) {
+    
+    .nav-content {
+        font-size: 12px;
+    }
+
+    #header-content {
+        flex-direction: column;
+    }
+
+    #heading {
+        font-size: 18px;
+    }
+
+    main #main-container  {
+        width: 90%;
+    }
+
+    #question-el {
+        font-size: 18px;
+    }
+}
